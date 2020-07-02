@@ -15,6 +15,11 @@
   <?php
   include "header.php";
   ?>
-  
+
+  <div class="jumbotron">
+    <h1>You are logged in!</h1>
+    <h1>You are logged out!</h1>
+  </div>
+
 </body>
 </html>

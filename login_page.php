@@ -16,7 +16,7 @@
   include "header.php";
   ?>
   <div class=" d-flex justify-content-center mt-5">
-    <div class="jumbotron w-25">
+    <div class="jumbotron w-50">
       <h4 class="display 3">Enter Login Credentials :</h4>
         <form class="form-group" action="" method="post">
           <label for="username">Username :</label>

@@ -16,20 +16,27 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-x1 fixed-top bg-light">
-    <span class="nav-item navbar-brand" style="color:black;"><b>Hi</b></span>
+  <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-light">
+    <span class="nav-item navbar-brand" style="color:black;"><b>Hi!</b></span>
     <span class="navbar-text abs-center-x"><b>This is an example of a basic login system</b></span>
-    <ul class="nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="login_page.php">Login</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="signUp_page.php">SignUp</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">LogOut</a>
-      </li>
-    </ul>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon my-toggler"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="login_page.php">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="signUp_page.php">SignUp</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">LogOut</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </body>
 

@@ -16,21 +16,16 @@
   include "header.php";
   ?>
   <div class=" d-flex justify-content-center mt-5">
-    <div class="jumbotron w-25">
+    <div class="jumbotron w-50">
       <h4 class="display 3">SignUp :</h4>
-        <form class="form-group" action="" method="post">
-          <label for="username">Username :</label>
-          <input type="text" class="form-control" id="username" name="username"/>
-          <label for="usermail">Email :</label>
-          <input type="text" class="form-control" id="usermail" name="usermail"/>
-          <label for="password">Password :</label>
-          <input type="password" class="form-control" id="password" name="password"/>
-          <label for="password-repeat">Re-enter Password :</label>
-          <input type="password" class="form-control" id="password-repeat" name="repeat_password"/>
-          <button class="btn btn-primary my-3 btn-sm" type="submit">Submit</button>
-        </form>
+      <form class="form-group" action="includes/signUp.php" method="post">
+        <input type="text" class="form-control" id="username" name="username" placeholder="Username"/>
+        <input type="text" class="form-control" id="usermail" name="usermail" placeholder="E-mail"/>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password"/>
+        <input type="password" class="form-control" id="password-repeat" name="repeat_password" placeholder="Repeat Password"/>
+        <button class="btn btn-dark my-3 btn-sm" name="signUp_submit" type="submit">Submit</button>
+      </form>
     </div>
   </div>
-
 </body>
 </html>
