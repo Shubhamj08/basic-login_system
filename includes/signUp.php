@@ -60,7 +60,7 @@ if(isset($_POST['signUp_submit'])){
             mysqli_stmt_execute($stmt);
             mysqli_stmt_store_result($stmt);
 
-            header("Location: ../signUp_page.php?signup=success");
+            header("Location: ../login_page.php?signup=success");
             exit();
           }
       }
@@ -69,5 +69,6 @@ if(isset($_POST['signUp_submit'])){
   mysqli_stmt_close($stmt);
   mysqli_close($connection);
 }else{
-  header("Location: ../signUp_page.php");
+  header("Location: ../index.php");
+  exit();
 }

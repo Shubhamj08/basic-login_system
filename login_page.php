@@ -16,14 +16,12 @@
   include "header.php";
   ?>
   <div class=" d-flex justify-content-center mt-5">
-    <div class="jumbotron w-50">
+    <div class="jumbotron w-25">
       <h4 class="display 3">Enter Login Credentials :</h4>
-        <form class="form-group" action="" method="post">
-          <label for="username">Username :</label>
-          <input type="text" class="form-control" id="username" name="username"/>
-          <label for="password">Password :</label>
-          <input type="password" class="form-control" id="password" name="password"/>
-          <button class="btn btn-primary my-3 btn-sm" type="submit">Submit</button>
+        <form class="form-group" action="includes/login.php" method="post">
+          <input type="text" class="form-control" name="username" placeholder="Username/E-mail"/>
+          <input type="password" class="form-control" name="password" placeholder="Password"/>
+          <button class="btn btn-dark my-3 btn-sm" type="submit" name="login_submit">Submit</button>
         </form>
     </div>
   </div>

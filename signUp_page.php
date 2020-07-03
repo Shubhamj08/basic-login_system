@@ -16,7 +16,7 @@
   include "header.php";
   ?>
   <div class=" d-flex justify-content-center mt-5">
-    <div class="jumbotron w-50">
+    <div class="jumbotron w-25">
       <h4 class="display 3">SignUp :</h4>
       <form class="form-group" action="includes/signUp.php" method="post">
         <input type="text" class="form-control" id="username" name="username" placeholder="Username"/>
